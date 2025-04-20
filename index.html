@@ -14,7 +14,10 @@
         <label for="contrasena">Contraseña:</label>
         <input type="password" id="password" name="password" required><br><br>
         <button type="submit">Enviar</button>
-    </form>    
+    </form> 
+
+    <div id="respuesta"></div>
+    
     <script>
         document.getElementById("formulario").addEventListener("submit", function(event) {
             event.preventDefault();  // Evitar que se recargue la página
